@@ -53,8 +53,9 @@ DEPENDENCIES
   excon
   nokogiri
   sorbet
+  sorbet-runtime
   tapioca
   zlib
 
 BUNDLED WITH
-   2.4.6
+   2.4.10

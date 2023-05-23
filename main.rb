@@ -1,3 +1,4 @@
+# typed: true
 require 'nokogiri'
 require 'excon'
 require 'zlib'
@@ -7,7 +8,6 @@ require 'pp'
 RESULTS_URL = "https://www.rei.com/used/shop/mens?brand=REI%20Co-op&size=M&category=Jackets&department=Men%27s%20Clothing"
 
 # fetch results from results URL (need ruby web library)
-
 # headers from successful web-request
 headers = {
     "accept" => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
